@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Samples" max_length="40" name="x_253170_cicerone_samples" type="collection">
+        <element choice="1" label="Beer Sampled" max_length="40" name="beer_sampled" type="choice">
+            <choice>
+                <element label="Generic IPA" sequence="10" value="G-IPA"/>
+                <element label="Generic Pale Ale" sequence="20" value="G-Pale Ale"/>
+                <element label="Generic Lager" sequence="30" value="G-Lager"/>
+                <element label="Generic Porter" sequence="40" value="G-Porter"/>
+                <element label="Generic Sour" sequence="50" value="G-Sour"/>
+                <element label="Generic Stout" sequence="60" value="G-Stout"/>
+            </choice>
+        </element>
+        <element label="Brewery" max_length="32" name="brewery" reference="x_253170_cicerone_breweries" type="reference"/>
+        <element label="New Sampler" max_length="40" name="new_user" type="boolean"/>
+        <element label="Notes" max_length="256" name="notes" type="string"/>
+        <element label="Not Sure of Date" max_length="40" name="not_sure_of_date" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Rating" max_length="40" name="rating" type="integer"/>
+        <element label="Sampler" max_length="32" name="sampler" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Sample Date" max_length="40" name="sample_date" type="glide_date"/>
+        <element choice="1" label="Sample Month" max_length="40" name="sample_month" type="choice">
+            <choice>
+                <element label="January" sequence="10" value="January"/>
+                <element label="February" sequence="20" value="February"/>
+                <element label="March" sequence="30" value="March"/>
+                <element label="April" sequence="40" value="April"/>
+                <element label="May" sequence="50" value="May"/>
+                <element label="June" sequence="60" value="June"/>
+                <element label="July" sequence="70" value="July"/>
+                <element label="August" sequence="80" value="August"/>
+                <element label="September" sequence="90" value="September"/>
+                <element label="October" sequence="100" value="October"/>
+                <element label="November" sequence="110" value="November"/>
+                <element label="December" sequence="120" value="December"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sample Size" max_length="40" name="sample_size" type="choice">
+            <choice>
+                <element label="Taste" sequence="10" value="Taste"/>
+                <element label="Flight" sequence="20" value="Flight"/>
+                <element label="10oz" sequence="30" value="10oz"/>
+                <element label="13oz" sequence="40" value="13oz"/>
+                <element label="Pint" sequence="50" value="Pint"/>
+                <element label="22oz" sequence="60" value="22oz"/>
+                <element label="750mL" sequence="70" value="750mL"/>
+                <element label="Growler" sequence="80" value="Growler"/>
+                <element label="Keg" sequence="90" value="Keg"/>
+                <element label="Other" sequence="200" value="Other"/>
+            </choice>
+        </element>
+        <element choice="1" label="Sample Year" max_length="40" name="sample_year" type="choice">
+            <choice>
+                <element label="Pre-2017" sequence="10" value="Pre-2017"/>
+                <element label="2017" sequence="20" value="2017"/>
+                <element label="2018" sequence="30" value="2018"/>
+            </choice>
+        </element>
+        <element label="User Name" max_length="20" name="user_name" type="string"/>
+        <element label="Visit" max_length="32" name="visit" reference="x_253170_cicerone_visits" type="reference"/>
+        <index name="index">
+            <element name="brewery"/>
+        </index>
+        <index name="index2">
+            <element name="visit"/>
+        </index>
+        <index name="index3">
+            <element name="sampler"/>
+        </index>
+    </element>
+</database>

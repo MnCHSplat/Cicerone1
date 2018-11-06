@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="style" table="x_253170_cicerone_beer" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>IPA</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:40:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7397eb2db6023009733178039961934</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:42:47</sys_updated_on>
+            <value>IPA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pale Ale</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:41:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a899beb2db602300973317803996198c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:42:54</sys_updated_on>
+            <value>Pale Ale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Lager</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:40:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cd59bab2db602300973317803996199c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:42:50</sys_updated_on>
+            <value>Lager</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Porter</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:41:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac7976b2db6023009733178039961961</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:42:58</sys_updated_on>
+            <value>Porter</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stout</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:40:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8969b272db602300973317803996197e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:43:07</sys_updated_on>
+            <value>Stout</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sour</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:41:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8189feb2db60230097331780399619f1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:43:04</sys_updated_on>
+            <value>Sour</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>style</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:42:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20a9bab2db60230097331780399619c1</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:42:40</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>style</element>
+            <name>x_253170_cicerone_beer</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:40:26</sys_created_on>
+            <sys_id>13497eb2db602300973317803996199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>style</sys_name>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_choice_x_253170_cicerone_beer_style</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:40:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

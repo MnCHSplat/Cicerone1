@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_ic_item_staging">
+    <sc_ic_item_staging action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <aprvl_defn_changed>false</aprvl_defn_changed>
+        <availability>on_both</availability>
+        <cost>0</cost>
+        <counter>0</counter>
+        <description/>
+        <desktop_image/>
+        <entitlements>{'cmn_department':[],'cmn_location':[],'sys_user_group':[]}</entitlements>
+        <fulfillment_group/>
+        <fulfillment_user/>
+        <item_type>sc_cat_item</item_type>
+        <layout_changed>true</layout_changed>
+        <mobile_image/>
+        <name>New Visit</name>
+        <recurring_cost>0</recurring_cost>
+        <recurring_frequency/>
+        <sc_cat_item/>
+        <sc_catalogs>050120cbdb2423009733178039961925</sc_catalogs>
+        <sc_categories>86bccc6bdb2023009733178039961903</sc_categories>
+        <short_description>Log new Brewery Visit</short_description>
+        <state>draft</state>
+        <submission_message/>
+        <sys_class_name>sc_ic_item_staging</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-20 13:02:26</sys_created_on>
+        <sys_id>075cc86bdb20230097331780399619c4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>New Visit</sys_name>
+        <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+        <sys_update_name>sc_ic_item_staging_075cc86bdb20230097331780399619c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-20 13:02:26</sys_updated_on>
+        <table_name/>
+        <task_defn_changed>false</task_defn_changed>
+        <var_defn_changed>false</var_defn_changed>
+        <var_meta_changed>false</var_meta_changed>
+        <version>2.0</version>
+        <workflow/>
+    </sc_ic_item_staging>
+    <fx_price action="delete_multiple" query="id=075cc86bdb20230097331780399619c4"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>cost</field>
+        <id>075cc86bdb20230097331780399619c4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-20 13:02:26</sys_created_on>
+        <sys_id>bedc846bdb2023009733178039961996</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-20 13:02:26</sys_updated_on>
+        <table>sc_ic_item_staging</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>recurring_cost</field>
+        <id>075cc86bdb20230097331780399619c4</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-20 13:02:26</sys_created_on>
+        <sys_id>f2dc846bdb2023009733178039961998</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-20 13:02:26</sys_updated_on>
+        <table>sc_ic_item_staging</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_translated_text action="delete_multiple" query="documentkey=075cc86bdb20230097331780399619c4"/>
+</record_update>

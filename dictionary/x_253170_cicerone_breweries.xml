@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Breweries" max_length="40" name="x_253170_cicerone_breweries" type="collection">
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Craftapped" max_length="40" name="craftapped" type="boolean"/>
+        <element display="true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="40" name="notes" type="string"/>
+        <element choice="1" default="Minnesota" label="State/Province" max_length="40" name="state_province" type="choice">
+            <choice>
+                <element label="-- New choice --" value="-- New choice --"/>
+                <element label="Minnesota" sequence="10" value="Minnesota"/>
+                <element label="Wisconsin" sequence="20" value="Wisconsin"/>
+                <element label="Florida" sequence="40" value="Florida"/>
+            </choice>
+        </element>
+        <element choice="1" label="Taproom Size" max_length="20" name="taproom_size" type="choice">
+            <choice>
+                <element hint="Holds less than 10 people (including none)" label="Micro" sequence="5" value="Micro"/>
+                <element hint="Holds less than 30 people" label="Small" sequence="10" value="Small"/>
+                <element hint="Holds between 30-60 people" label="Medium" sequence="20" value="Medium"/>
+                <element hint="Holds between 60-150 people" label="Large" sequence="30" value="Large"/>
+                <element hint="Holds more than 150 people" label="X-Large" sequence="40" value="X-Large"/>
+            </choice>
+        </element>
+        <element label="Visit Ratings" max_length="40" name="visit_ratings" type="integer"/>
+    </element>
+</database>

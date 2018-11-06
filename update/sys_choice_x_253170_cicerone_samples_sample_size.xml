@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="sample_size" table="x_253170_cicerone_samples" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Taste</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:07:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6c1f2bedb20230097331780399619db</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:07:50</sys_updated_on>
+            <value>Taste</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Flight</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:08:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5fd13e7edb202300973317803996199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:08:14</sys_updated_on>
+            <value>Flight</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>10oz</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:08:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>41f1b2bedb20230097331780399619ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:08:40</sys_updated_on>
+            <value>10oz</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>13oz</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:08:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a702fe7edb2023009733178039961912</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:08:56</sys_updated_on>
+            <value>13oz</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Pint</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>50</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:09:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ef1236bedb2023009733178039961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:09:17</sys_updated_on>
+            <value>Pint</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>22oz</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>60</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:09:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec3236bedb2023009733178039961935</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:09:51</sys_updated_on>
+            <value>22oz</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>750mL</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>70</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:11:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3c52b2bedb20230097331780399619ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:11:26</sys_updated_on>
+            <value>750mL</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Growler</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>80</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:12:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>20c2f2bedb2023009733178039961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:12:00</sys_updated_on>
+            <value>Growler</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Keg</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>90</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:12:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>40d2b6bedb2023009733178039961967</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:12:17</sys_updated_on>
+            <value>Keg</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>sample_size</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <sequence>200</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:12:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>54e27e7edb202300973317803996198a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:12:33</sys_updated_on>
+            <value>Other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>sample_size</element>
+            <name>x_253170_cicerone_samples</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:07:50</sys_created_on>
+            <sys_id>39d13a7edb2023009733178039961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>sample_size</sys_name>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_choice_x_253170_cicerone_samples_sample_size</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:07:50</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

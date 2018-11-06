@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="sample_date" label="Sample Date" language="en" table="x_253170_cicerone_samples">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>sample_date</element>
+            <help/>
+            <hint/>
+            <label>Sample Date</label>
+            <language>en</language>
+            <name>x_253170_cicerone_samples</name>
+            <plural>Sample Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:56:16</sys_created_on>
+            <sys_id>903f663edb20230097331780399619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Sample Date</sys_name>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_documentation_x_253170_cicerone_samples_sample_date_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:56:16</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Beer" max_length="40" name="x_253170_cicerone_beer" type="collection">
+        <element label="ABV" max_length="20" name="abv" type="decimal"/>
+        <element label="Brewery" mandatory="true" max_length="32" name="brewery" reference="x_253170_cicerone_breweries" type="reference"/>
+        <element label="IBU" max_length="20" name="ibu" type="decimal"/>
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="256" name="notes" type="string"/>
+        <element choice="1" label="Style" mandatory="true" max_length="40" name="style" type="choice">
+            <choice>
+                <element label="IPA" sequence="10" value="IPA"/>
+                <element label="Pale Ale" sequence="20" value="Pale Ale"/>
+                <element label="Lager" sequence="30" value="Lager"/>
+                <element label="Porter" sequence="40" value="Porter"/>
+                <element label="Stout" sequence="50" value="Stout"/>
+                <element label="Sour" sequence="60" value="Sour"/>
+                <element label="Other" sequence="200" value="Other"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="brewery"/>
+        </index>
+    </element>
+</database>

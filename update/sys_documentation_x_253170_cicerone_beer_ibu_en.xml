@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="ibu" label="IBU" language="en" table="x_253170_cicerone_beer">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>ibu</element>
+            <help/>
+            <hint/>
+            <label>IBU</label>
+            <language>en</language>
+            <name>x_253170_cicerone_beer</name>
+            <plural>IBUs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 17:44:59</sys_created_on>
+            <sys_id>ce5af6f2db6023009733178039961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>IBU</sys_name>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_documentation_x_253170_cicerone_beer_ibu_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 17:44:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

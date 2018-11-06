@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Brewery import" max_length="40" name="x_253170_cicerone_initial_import" type="collection">
+        <element attributes="import_attribute_name=10K Brewing,edge_encryption_enabled=true" label="10K Brewing" max_length="40" name="u_10k_brewing" type="string"/>
+        <element attributes="import_attribute_name=C,edge_encryption_enabled=true" label="C" max_length="40" name="u_c" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Minnesota,edge_encryption_enabled=true" label="Minnesota" max_length="40" name="u_minnesota" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+    </element>
+</database>

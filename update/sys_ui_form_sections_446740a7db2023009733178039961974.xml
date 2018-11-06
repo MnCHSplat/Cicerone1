@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="446740a7db2023009733178039961974" sys_domain="global" table="x_253170_cicerone_visits" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-20 13:13:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e4fcc6bdb2023009733178039961963</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_253170_cicerone_visits" name="x_253170_cicerone_visits" sys_domain="global" view="Default view">446740a7db2023009733178039961974</sys_ui_form>
+            <sys_ui_section caption="Samples" display_value="Samples" name="x_253170_cicerone_samples" sys_domain="global" view="Default view">c7a376fedb20230097331780399619c1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-20 13:36:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-20 13:36:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a9494afdb2023009733178039961980</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_253170_cicerone_visits" name="x_253170_cicerone_visits" sys_domain="global" view="Default view">446740a7db2023009733178039961974</sys_ui_form>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_253170_cicerone_visits" sys_domain="global" view="Default view">ce9494afdb202300973317803996197d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-20 13:36:16</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_253170_cicerone_visits</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-20 12:40:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>446740a7db2023009733178039961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_253170_cicerone_visits</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_ui_form_sections_446740a7db2023009733178039961974</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-20 12:40:06</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

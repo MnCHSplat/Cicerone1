@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="taproom_size" table="x_253170_cicerone_breweries" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>taproom_size</element>
+            <hint>Holds less than 10 people (including none)</hint>
+            <inactive>false</inactive>
+            <label>Micro</label>
+            <language>en</language>
+            <name>x_253170_cicerone_breweries</name>
+            <sequence>5</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:47:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>19fc6ebadb2023009733178039961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:47:03</sys_updated_on>
+            <value>Micro</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>taproom_size</element>
+            <hint>Holds less than 30 people</hint>
+            <inactive>false</inactive>
+            <label>Small</label>
+            <language>en</language>
+            <name>x_253170_cicerone_breweries</name>
+            <sequence>10</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:42:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>521c6a32db202300973317803996192d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:44:01</sys_updated_on>
+            <value>Small</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>taproom_size</element>
+            <hint>Holds between 30-60 people</hint>
+            <inactive>false</inactive>
+            <label>Medium</label>
+            <language>en</language>
+            <name>x_253170_cicerone_breweries</name>
+            <sequence>20</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:45:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c77c267adb20230097331780399619b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:45:01</sys_updated_on>
+            <value>Medium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>taproom_size</element>
+            <hint>Holds between 60-150 people</hint>
+            <inactive>false</inactive>
+            <label>Large</label>
+            <language>en</language>
+            <name>x_253170_cicerone_breweries</name>
+            <sequence>30</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:45:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2dac6a3adb20230097331780399619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:45:33</sys_updated_on>
+            <value>Large</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>taproom_size</element>
+            <hint>Holds more than 150 people</hint>
+            <inactive>false</inactive>
+            <label>X-Large</label>
+            <language>en</language>
+            <name>x_253170_cicerone_breweries</name>
+            <sequence>40</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:45:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dcc6a7adb2023009733178039961901</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:45:57</sys_updated_on>
+            <value>X-Large</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>taproom_size</element>
+            <name>x_253170_cicerone_breweries</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-18 16:42:45</sys_created_on>
+            <sys_id>9e1c6a32db202300973317803996192d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>taproom_size</sys_name>
+            <sys_package display_value="Cicerone" source="x_253170_cicerone">174766b6db202300973317803996195f</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Cicerone">174766b6db202300973317803996195f</sys_scope>
+            <sys_update_name>sys_choice_x_253170_cicerone_breweries_taproom_size</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-18 16:42:45</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

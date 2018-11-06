@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Visits" max_length="40" name="x_253170_cicerone_visits" type="collection">
+        <element label="Brewery" mandatory="true" max_length="32" name="brewery" reference="x_253170_cicerone_breweries" type="reference"/>
+        <element label="Notes" max_length="256" name="notes" type="string"/>
+        <element label="Visitor 1 Name" mandatory="true" max_length="32" name="visitor_1" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Visitor 1 Rating" mandatory="true" max_length="40" name="visitor_1_rating" type="integer"/>
+        <element label="Visitor 2 Name" max_length="32" name="visitor_2_name" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Visitor 2 Rating" max_length="40" name="visitor_2_rating" type="integer"/>
+        <element label="Visitor 3 Name" max_length="32" name="visitor_3_name" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Visitor 3 Rating" max_length="40" name="visitor_3_rating" type="integer"/>
+        <element label="Visitor 4 Name" max_length="32" name="visitor_4_name" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Visitor 4 Rating" max_length="40" name="visitor_4_rating" type="integer"/>
+        <element label="Visit Date" mandatory="true" max_length="40" name="visit_date" type="glide_date"/>
+        <index name="index">
+            <element name="visitor_4_name"/>
+        </index>
+        <index name="index2">
+            <element name="visitor_2_name"/>
+        </index>
+        <index name="index3">
+            <element name="visitor_1"/>
+        </index>
+        <index name="index4">
+            <element name="brewery"/>
+        </index>
+        <index name="index5">
+            <element name="visitor_3_name"/>
+        </index>
+    </element>
+</database>
