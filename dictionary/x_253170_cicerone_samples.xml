@@ -17,7 +17,7 @@
         <element label="Not Sure of Date" max_length="40" name="not_sure_of_date" type="boolean"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Rating" max_length="40" name="rating" type="integer"/>
-        <element label="Sampler" max_length="32" name="sampler" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Sampler" max_length="32" name="sampler" reference="sys_user" reference_qual="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" reference_qual_condition="sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ" type="reference"/>
         <element label="Sample Date" max_length="40" name="sample_date" type="glide_date"/>
         <element choice="1" label="Sample Month" max_length="40" name="sample_month" type="choice">
             <choice>

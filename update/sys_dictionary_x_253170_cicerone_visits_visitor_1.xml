@@ -46,7 +46,9 @@
         <reference_floats>false</reference_floats>
         <reference_key/>
         <reference_qual>sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ</reference_qual>
-        <reference_qual_condition/>
+        <reference_qual_condition table="sys_user">sys_created_on&gt;javascript:gs.dateGenerate('2018-09-01','23:59:59')^EQ<item endquery="false" field="sys_created_on" goto="false" newquery="false" operator="&gt;" or="false" value="javascript:gs.dateGenerate('2018-09-01','23:59:59')"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </reference_qual_condition>
         <reference_type/>
         <sizeclass/>
         <spell_check>false</spell_check>
@@ -68,7 +70,7 @@
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
-        <use_reference_qualifier>advanced</use_reference_qualifier>
+        <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
         <widget/>
         <write_roles/>
